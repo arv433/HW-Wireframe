@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#mainArea {
+    position: absolute;
+    width: 800px;
+    left: 20%;
+    /* put the majority of the body into one div in order to align it onto the page */
+}
+
+.whiteBlock  {
+    color: #777;
+    background: #ebebeb;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greyBlock {
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+    padding: 10px;
+}
+
+#left {
+    display: inline-block;
+    /* inline-block allows other elements to sit to its left or right */
+    width: 50%;
+}
+
+#right {
+    float: right;
+    width: 40%;
+    /* maximum width for #left and #right to be displayed immediately next to each other */
+    height: 272px;
+    /* this height is the exact same as the div with the ID #left */
+}
